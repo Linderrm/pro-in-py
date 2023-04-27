@@ -1,20 +1,30 @@
-p{
-  color: black;
+ 
+
+
+
+body{
+   background-image: url(img/fo\ kep.jpg);
 }
-h1{
+
+p{
+    color: black;
+  }
+  h1{
     text-align: center;
     margin-left: auto;
     text-size-adjust: bold; 
     text-shadow: 2px 2px #ff0000;
     font-style: italic;
-}
-div {
+  }
+  div {
     height: 100px;
-    width: 500px;
-    background-color: white
-}
-h2{
+    width: 500px }
+  h2{
     margin-left: 0%;
     font-style: italic;
-
-}
+  
+  }img{
+    height: 200px;
+    width: 300px;
+    float: right;
+  }
