@@ -1,0 +1,20 @@
+p{
+  color: black;
+}
+h1{
+    text-align: center;
+    margin-left: auto;
+    text-size-adjust: bold; 
+    text-shadow: 2px 2px #ff0000;
+    font-style: italic;
+}
+div {
+    height: 100px;
+    width: 500px;
+    background-color: white
+}
+h2{
+    margin-left: 0%;
+    font-style: italic;
+
+}
