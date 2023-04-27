@@ -1,0 +1,49 @@
+1.A játékot 2×45 percig játsszák, ezeket nevezik félidőknek. A nem játékkal töltött időt (például sérülés, csere) a bírók a félidők végén hosszabbítás formájában beszámítják.
+A játék célja a gól, vagyis a labdának az ellenfél kapujába való juttatása. A gól akkor szabályos, ha a labda teljes terjedelmével átjutott a gólvonalon. Az a csapat nyeri a mérkőzést, aki a játékidő alatt több gólt ér el.
+ Ha a két csapat góljainak száma megegyezik akkor a meccs döntetlen.
+Mindkét csapatban 11 játékos van egy időben a pályán (amennyiben nincs kiállítás), de lehetőség van a cserére.
+ Hivatalos mérkőzéseken ötöt lehet cserélni, három játékmegszakítás alkalmával, amibe nem kell beleszámolni a félidőt.
+ Hosszabbítás esetén újabb egy cserelehetőség van. Barátságos meccseken a két csapat a játékvezetővel egyetértésben megegyezhet a cserelehetőségek számában.
+ Az a játékos, akit edzője lecserélt, már nem térhet vissza a pályára az adott meccsen (kivétel az edzőmérkőzés).
+ A cserének ott kell elhagynia a pályát ami hozzá a legközelebb van.
+
+
+TÖRTÉNETE MAGYARORSZÁGON
+1.A magyarországi labdarúgás legelső irodalmi emléke 1879-ből származik. Molnár Lajos a MAC egyik alapítója tesz említést „Athletikai Gyakorlatok” című szakmunkájában. A pesti református főgimnáziumban 1882-ben hozták létre az első szabadtéri játszó társaságot,
+ ahol a diákok örömmel ismerkedtek a „rúgosdi” játékkal is. A magyar labdarúgás következő fontos dátuma 1885. június 16-a volt, ugyanis ekkor alakult meg az egyik legjelentősebb hazai egyesület, az Újpesti Torna Egylet.
+
+2.1901. január 19-én 13 egyesület képviseletében alapították meg a Magyar Labdarúgó-szövetséget, amelynek önállóságát a FIFA 1907-ben Amszterdamban tartott ülésén mindörökre elismerte, ezzel fel is vette a tagjai közé.
+ Az első bajnokságot az alakuló közgyűlésen megválasztott tanács február 4-én már ki is írta, a jelentkező csapatokat az addigi hazai barátságos és nemzetközi mérkőzéseiken elért eredményeik alapján két csoportra osztották.
+ Válogatottunk 1902. október 12-én játszotta első hivatalos mérkőzését, a találkozó helyszíne Bécs volt, az ellenfél Ausztria.
+ A végeredmény 5–0-s osztrák sikert hozott. A magyar labdarúgókupának az 1909-1910-es idényben volt az első szezonja, a rendezvény győztese az MTK lett.
+ A legjelentősebb magyar meccs az UTE és az FTC mindenkori csapatának mérkőzése, amely a világ második legnagyobb városi meccse.
+ Városi rangadók közül csak a több mint 250-szer megrendezett Old Firm skót szupermeccs, a Rangers–Celtic meccs előzi meg.
+ A bajnokságban több mint kétszázszor találkozott hazánk két legnagyobb szurkolótáborral rendelkező klubja, továbbá magyar, illetve nemzetközi kupákban is körülbelül százszor, egyéb mérkőzésekkel pedig még többször.
+ Egymás elleni meccseik a labdarúgás legrosszabb időszakában is telt házasak, a két szurkolótábor egymáshoz fűződő viszonya miatt feltüzelt, paprikás, ugyanakkor Európában is kiemelkedő hangulatúak. A két szurkolótábor a magyar labdarúgás talán legmeghatározóbb alakja, ha valamely kérdésben egyetért, ugyanakkor politikailag se elhanyagolható erő.
+
+TOPP JÁTÉKOSOK
+1.Lionel Messi
+2.Puskás Ferenc
+3.Pelé
+4.Cristiano Ronaldo
+5.Diego Maradona
+6.Ronaldinho
+7.johan Cruijff
+8.Ronaldo
+9.Zinédine Zidane
+10.George Best
+
+
+Top 5 liga
+1.laiga
+2.premier leagues
+3.Bundes leagues
+4.Seria a 
+5.Ligue One
+
+Top 5 Nemzeti csapat
+1.Brazil
+2.Argentina
+3.francia ország
+4.belgium
+5.hollandia
