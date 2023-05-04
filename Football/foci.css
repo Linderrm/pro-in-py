@@ -1,10 +1,8 @@
+ 
 body{
    background-image: url(img/fo\ kep.jpg);
 }
 
-p{
-    color: black;
-  }
   h1{
     text-align: center;
     margin-left: auto;
@@ -24,10 +22,13 @@ p{
     float: right;
   }
   p {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color:black;
+    border-style: solid;
   }
   ol {
-    background-color: black;
-    color: white;
+    background-color:white;
+    color: black;
+    border-style: inset;
+    border-color: black;
   }
