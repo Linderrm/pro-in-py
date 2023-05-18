@@ -1,34 +1,73 @@
  
 body{
-   background-image: url(img/fo\ kep.jpg);
-}
+    background-image: url(img/kep3.jpg);
+ }
+ 
+   h1{
+     text-align: center;
+     margin-left: auto;
+     text-shadow: 2px 2px black;
+     font-style: italic;
+   }
+   div {
+     height: 100px;
+     width: 500px
+      
+    
+    }
+   h2{
+     margin-left: 0%;
+     font-style: italic;
+   
+   }
+   img{
+     height: 200px;
+     width: 300px;
+     float: right;
+     border-style: solid;
+     background-color: black;
+     
+   }
+   p {
+     background-color: white;
+     color:black;
+     border-style: solid;
+     text-align: center;
+   }
+   ol {
+     background-color:white;
+     color: black;
+     border-style: inset;
+     border-color: black;
+   }
 
-  h1{
-    text-align: center;
-    margin-left: auto;
-    text-shadow: 2px 2px #ff0000;
-    font-style: italic;
-  }
-  div {
-    height: 100px;
-    width: 500px }
-  h2{
-    margin-left: 0%;
-    font-style: italic;
-  
-  }img{
-    height: 200px;
-    width: 300px;
-    float: right;
-  }
-  p {
-    background-color: white;
-    color:black;
-    border-style: solid;
-  }
-  ol {
-    background-color:white;
-    color: black;
+   mark {
+
     border-style: inset;
     border-color: black;
+   }
+
+a {
+    text-align: justify;
+    color: #000;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#kep {
+  height: 300px;
+  width: 500px;
+  float: right;
+}
+#boostrap{
+  background-color: black;
+  }
+
+  h3{
+    text-align: center;
+    margin-left: auto;
+    text-shadow: 2px 2px white;
+    font-style: italic;
+    
   }
