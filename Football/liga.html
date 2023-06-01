@@ -1,55 +1,107 @@
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labdarúgás</title>
-    <link rel="stylesheet" href="foci.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top jatekosok</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  
+}
+
+.menu a {
+  background-color: black;
+  padding: 20px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  color: #e5e5e5;
+  border-style: solid;
+  border-color: #e5e5e5;
+  transform: scale(1.0);
+  transition: .5s ease;
+
+}
+a.hover{
+  transform: scale(1.0);
+  transition: .5s ease;
+
+}
+
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  
+}
+
+.right {
+  background-color: black;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  color: #e5e5e5;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header" id="boostrap">
-            <h3 class="h3">Labdarúgás</h3>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="football.html">játék</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Topok
-              <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="topjatekosok.html">Top jétékosok</a></li>
-                <li><a href="liga.html">Top 5 liga</a></li>
-                <li><a href="nemzeticsapat.html">Top 5 Nemzeti csapat</a></li>
-              </ul>
-            </li>
-            <li><a href="történeteMO.html">Töténete Magyarországon</a></li>
-          </ul>
-        </div>
-      </nav>
-      
-          <h1>Top ligák</h1>
-          <img src="img/ligak.png" alt="" id="kep">
-     
-    <div>
-        <ol>
-            <li>Laliga</li>
-            <li>premier leagues</li>
-            <li>Bundes leagues</li>
-            <li>Seria a </li>
-            <li>Ligue One</li>
+<body javascript:void(0);style="font-family:Verdana;color:#aaaaaa;" style="background-image: url(img/kep3.jpg);">
 
-        </ol>
-       
-        
-    
+<div style="background-color:black;padding:15px;text-align:center;">
+  <h1 style="color: #e5e5e5;">Labdarugas</h1>
+</div>
 
-    </div>
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="football.html">football</a>
+    <a href="topjatekosok.html">top jatekosok</a>
+    <a href="nemzeticsapat.html">top nemzeti csapatok</a>
+    <a href="történeteMO.html">Történelem Magyaországon</a>
+  </div>
+
+  <div class="main">
+    <h2>Top ligak</h2>
+
+    <ol style="border-style: solid; background-color: black; color: #e5e5e5;">
+      <li>Angol liga </li>
+      <li>Francia liga</li>
+      <li>Bundes liga</li>
+      <li>francia liga</li>
+      <li>olasz liga</li>
+
+    </ol>
+    <img src="img/ligak.png" alt="" style="height: 300px; float: right; border-style: solid;">
 
     
+  </div>
+
+  <div class="right">
+    <h2>Érdekesség</h2>
+    <p>  1937-ben mutattak a tévében először labdarúgó-mérkőzést.</p>
+</div>
+
+
+
 </body>
 </html>
+
