@@ -1,58 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labdarúgás</title>
-    <link rel="stylesheet" href="foci.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labdarugas</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  
+}
+
+.menu a {
+  background-color: black;
+  padding: 20px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  color: #e5e5e5;
+  border-style: solid;
+  border-color: #e5e5e5;
+  transform: scale(1.0);
+  transition: .5s ease;
+
+}
+a.hover{
+  transform: scale(1.0);
+  transition: .5s ease;
+
+}
+
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  
+}
+
+.right {
+  background-color: black;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  color: #e5e5e5;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header" id="boostrap">
-            <h3 class="h3">Labdarúgás</h3>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">játék</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Topok
-              <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="topjatekosok.html">Top jétékosok</a></li>
-                <li><a href="liga.html">Top 5 liga</a></li>
-                <li><a href="nemzeticsapat.html">Top 5 Nemzeti csapat</a></li>
-              </ul>
-            </li>
-            <li><a href="történeteMO.html">Töténete Magyarországon</a></li>
-          </ul>
-        </div>
-      </nav>
-    <section class="container">
-        
-        <img src="img/palya.png"  alt="" float="right" >
-        <img src="img/labda.jpg"  alt="" float="right" >
-        <div class="div" >
-            <article class="img-info" >
-              <h1><mark class="mark">játék</mark></h1>
-                <p>labdajáték, amelyet a pályán két, egyenként 11 labdarúgóból álló csapat játszik egymás ellen.
-                    A játék célja, hogy a rendelkezésre álló idő alatt a labdát az ellenfél kapujába juttassák, lehetőleg minél többször, és így minél több gólt szerezzenek.
-                </p>
-                <p>
-                    A futball lábsport, de a játékos bármely testrészét használhatja a labda irányítására, csak a karjait nem. Kivétel a kapus, akinek a tizenhatos vonalon belül nincs „tiltott” testrésze, a büntetőterületen kívül viszont ő is mezőnyjátékosnak számít.
-                    Illetve amikor a labda az oldalvonalnál hagyja el a játékteret akkor a labdát (kézzel) bedobással kell játékba hozni, ebben az esetben lábbal nem szabad érinteni a labdát.
-                </p>
+<body javascript:void(0);style="font-family:Verdana;color:#aaaaaa;" style="background-image: url(img/kep3.jpg);">
 
-                
-            </article>
-          </div>
-          
-        
-    </section>
+<div style="background-color:black;padding:15px;text-align:center;">
+  <h1 style="color: #e5e5e5;">Labdarugas</h1>
+</div>
 
-    
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="topjatekosok.html">top jatekosok</a>
+    <a href="liga.html">top ligak</a>
+    <a href="nemzeticsapat.html">top nemzeti csapatok</a>
+    <a href="történeteMO.html">Történelem Magyaországon</a>
+  </div>
+
+  <div class="main">
+    <h2>Játék</h2>
+    <p style="border-style: initial;">
+      A játékot 2×45 percig játsszák, ezeket nevezik félidőknek. A nem játékkal töltött időt (például sérülés, csere) a bírók a félidők végén hosszabbítás formájában beszámítják.
+      A játék célja a gól, vagyis a labdának az ellenfél kapujába való juttatása. A gól akkor szabályos, ha a labda teljes terjedelmével átjutott a gólvonalon. Az a csapat nyeri a mérkőzést, aki a játékidő alatt több gólt ér el.
+       Ha a két csapat góljainak száma megegyezik akkor a meccs döntetlen.
+      Mindkét csapatban 11 játékos van egy időben a pályán (amennyiben nincs kiállítás), de lehetőség van a cserére.
+       Hivatalos mérkőzéseken ötöt lehet cserélni, három játékmegszakítás alkalmával, amibe nem kell beleszámolni a félidőt.
+       Hosszabbítás esetén újabb egy cserelehetőség van. Barátságos meccseken a két csapat a játékvezetővel egyetértésben megegyezhet a cserelehetőségek számában.
+       Az a játékos, akit edzője lecserélt, már nem térhet vissza a pályára az adott meccsen (kivétel az edzőmérkőzés).
+       A cserének ott kell elhagynia a pályát ami hozzá a legközelebb van.
+      </p>
+      <img src="img/palya.png" alt="" style="height: 233px; width: 300px; float: right; border-style: solid;">
+      <img src="img/labda.jpg" alt="" style="height: 233px; width: 300px; border-style: solid;">
+  </div>
+
+  <div class="right">
+    <h2>Érdekesség</h2>
+    <p>  A focisták egy meccs alatt átlagosan 9,65 kilométert futnak.</p>
+  </div>
+</div>
+
+
+
 </body>
 </html>
+
