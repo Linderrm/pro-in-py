@@ -1,13 +1,14 @@
  
 body{
     background-image: url(img/kep3.jpg);
+    
  }
  
    h1{
      text-align: center;
      margin-left: auto;
      text-shadow: 2px 2px black;
-     font-style: italic;
+     
    }
    div {
      height: 100px;
@@ -16,8 +17,14 @@ body{
     
     }
    h2{
-     margin-left: 0%;
+     margin-left: auto;
      font-style: italic;
+     text-shadow: 1px 1px black;
+     text-align: center;
+     text-size-adjust: 10px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+     
    
    }
    img{
@@ -35,10 +42,10 @@ body{
      text-align: center;
    }
    ol {
-     background-color:white;
+     background-color: darkgrey;
      color: black;
-     border-style: inset;
-     border-color: black;
+     border-style: double;
+     
    }
 
    mark {
@@ -56,12 +63,15 @@ a {
 }
 
 #kep {
-  height: 300px;
-  width: 500px;
+  height: 200px;
+  width: 250px;
   float: right;
+  border: 5px solid black;
+  
 }
 #boostrap{
   background-color: black;
+  
   }
 
   h3{
@@ -69,5 +79,34 @@ a {
     margin-left: auto;
     text-shadow: 2px 2px white;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     
   }
+
+
+
+
+@media (max-width:650px){
+  img{
+    display: none;
+  }
+  p{
+    margin-top: 200px;
+  }
+}
+#img1{
+  transform: scale(1.2);
+
+}  
+img:hover{
+
+  border: 5px solid black;
+}
+
+#kep2{
+  height: 200px;
+  width: 450px;
+  float: right;
+  border: 5px solid black;
+  margin-right: 50px;
+}
